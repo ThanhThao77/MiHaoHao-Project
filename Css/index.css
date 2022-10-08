@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito Sans, sans-serif;
+}
+
+
+/* style.css (tên file cũ trong bootstrap studio) */
+.icon {
+    margin: 8px;
+}
+
+
+.test {
+    height: 1000px;
+}
+nav{
+    position: fixed !important;
+    z-index: 1;
+    width: 100%;
+    margin-top: -65px;
+}
+
+.carousel11-item img{
+    margin-top: 65px;
+}
+
+
+
+.navbar li:hover a {
+    background-color: #e96593;
+    padding: 100px 0px;
+}
+
+
+.card-header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.card-header-span {
+    border: solid 1px #e96593;
+    border-radius: 16px;
+    background-color: #e96593;
+    color: #fff;
+    padding: 0px 24px;
+    font-weight: 600;
+}
+
+/* CSS for CARD */
+.card-title {
+    /* max-height: 50px; */
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #EF0016;
+}
+
+.btn-card {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.btn-xem {
+    border: 3px solid #EF0016;
+    text-decoration: none;
+    color: #EF0016;
+    padding: 5px 15px;
+    border-radius: 0.5rem;
+}
+
+.btn-xem:hover {
+    background-color: red;
+    color: white;
+}
+
+.col .bg-card {
+    background-color: rgba(244, 244, 244);
+}
+
+.card-text {
+    font-size: 15px;
+    padding: 0px 30px;
+}
+
+.card-img-top {
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    border-radius: 1rem;
+    transform: scale(1.2);
+    /* Safari & Google Chrome */
+    -webkit-transform: scale(1.2);
+    /* Mozilla Firefox */
+    -moz-transform: scale(1.2);
+    /* Opera */
+    -o-transform: scale(1.2);
+    /* IE 9 */
+    -ms-transform: scale(1.2);
+    cursor: pointer;
+}
+
+.img-sukien img {
+    height: 250px;
+    width: 100%;
+}
+
+.list-grid {
+    margin: 0px 70px;
+}
+
+
+/* Phần footer */
+footer {
+    background-color: rgba(244, 244, 244);
+}
+
+.footer-link ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-link ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #444;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 16px;
+}
+
+
+/* sửa lại hiệu ứng hover cho card */
+/* begin */
+.card.h-100.bg-card {
+    overflow: hidden;
+}
+
+.img-sukien {
+    overflow: hidden;
+}
+
+/* end */
+
+
+/* 23/06/2022 Phần slide video */
+.video img {
+    border-radius: 1rem;
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgba(238, 139, 174);
+    border-width: 4px;
+    padding: 5px 8px;
+}
+.info-video h3 {
+    font-size: 20px;
+    color: rgba(239, 0, 22);
+    line-height: 1.4;
+    font-weight: 700;
+}
+.content-text {
+    line-height: 1.5;
+    font-size: 18px;
+    color: rgba(108, 108, 108);
+    padding-right: 50px;
+}
+.btn-dangki-thongtin a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+.btn-dangki {
+    border: 3px solid #EF0016;
+    text-decoration: none;
+    background-color: #EF0016;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 0.5rem;
+}
+.btn-dangki:hover {
+    background-color: white;
+    color: #EF0016;
+}
+
+.border-list-video {
+    height: 5px;
+    background-color: rgba(238, 139, 174);
+    margin: 0px 170px;
+
+}
+
+
+
+/* Phần sửa list slide video*/
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+.ma-slid {
+    margin: 0px 10px;
+    border: none;
+}
+.card-img img{
+    border-radius: 1rem;
+}
+.bg-button .ic{
+    background-color: rgb(80, 76, 76);
+    border-radius: 50px;
+}
+
+
+
+/* SAN PHAM */
+.img-product img {
+    
+    height: 400px;
+    width: 100%; 
+}
+
+ /* your CSS goes here*/
+.items{
+  width:90%;
+  margin:0px auto;
+  margin-top: 100px;
+}
+.slick-slide{
+  margin:10px;
+}
+.slick-slide img{
+  width:100%;
+  border: 0px solid #fff;
+}
+
+
+
+button.place-buy-btn.js-buy-ticket {
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    border: 1px solid red;
+    background-color: #EF0016;
+}
+button.place-buy-btn.js-buy-ticket:hover{
+    background-color: white;
+    color: #EF0016;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Hội */
+.clear {
+    clear: both;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal-container {
+    background-color: #fff;
+    width: 900px;
+    max-width: calc(100% - 50x);
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn .5s ease;
+}
+
+.modal-header {
+    background-color: #e96593;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.modal-heading-icon {
+    margin-right: 16px;
+}
+
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.modal-close:hover {
+    opacity: 1;
+    /* background-color: #333; */
+}
+
+
+.modal-body {
+    padding: 16px;
+}
+
+.modal-label {
+    display: block;
+    font-weight: 15px;
+    margin-bottom: 12px;
+
+}
+
+.modal-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+
+
+#buy-tickets {
+    background-color: #e96593;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 18px;
+}
+
+#buy-tickets:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.modal-footer {
+    padding: 16px;
+    text-align: right;
+}
+
+.modal-footer a {
+    color: #2196f3;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.modal-input {
+    border: 1px solid #e96593;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

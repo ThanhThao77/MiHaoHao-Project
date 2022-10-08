@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito Sans, sans-serif;
+}
+
+/* NAVBAR */
+.icon {
+    margin: 8px;
+}
+.test {
+    height: 1000px;
+}
+nav{
+    z-index: 1;
+    position: fixed !important;
+    width: 100%;
+    --tw-shadow: 0 8px 32px rgba(0, 0, 0, 0.32);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+}
+.navbar li:hover a {
+    background-color: #e96593;
+    padding: 100px 0px;
+}
+
+
+/* PHẦN NỘI DUNG */
+.container{
+    max-width: 1140px !important;
+    padding-top: 150px;
+}
+.Music-content{
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.post-header h1{
+    font-size: 32px;
+    color: rgba(239, 0, 22);
+    font-weight: 700;
+    line-height: 1.4;
+}
+.interactive{
+    margin: 20px 0px;
+    font-size: 15px;
+}
+.split{
+    margin: 0px 15px; 
+}
+.ma-5{
+    margin: 0px 3px;
+}
+.post-content p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.font-text{
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+/* Phần thẻ CARD */
+.card{
+    margin-bottom: 24px;
+}
+.card-title{
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+.card-title a{
+    text-decoration: none;
+    color: #EF0016;
+}
+.btn-card{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.btn-xem{
+    border: 3px solid #EF0016;
+    text-decoration: none;
+    color: #EF0016;
+    padding: 5px 15px;
+    border-radius: 0.5rem;
+}
+.btn-xem:hover{
+    background-color: red;
+    color: white;
+}
+.bg-card{
+    background-color: rgba(244, 244, 244);
+}
+.card-text{
+    font-size: 15px;
+    padding: 0px 30px;
+}
+.card-img-top{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    border-radius: 1rem;
+}
+
+
+/* Phần footer */
+footer{
+    background-color: rgba(244, 244, 244);
+}
+
+.footer-link ul{
+    display: flex;
+    list-style-type: none;
+}
+.footer-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #444;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 16px;
+}

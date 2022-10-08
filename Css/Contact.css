@@ -1,0 +1,93 @@
+/* CSS for HaoHao-Title */
+.icon {
+    margin: 8px;
+}
+
+.test {
+    height: 1000px;
+}
+
+.navbar li:hover a {
+    background-color: #e96593;
+    padding: 100px 0px;
+}
+
+.form-control {
+    border: 2px solid var(--bs-pink);
+    border-radius: 22px;
+    padding: 10px 0px;
+}
+.form-control::placeholder {
+    padding-left: 10px;
+    color: black;
+    opacity: 1;
+    font-weight: 600;
+}
+.form-select {
+    border: 2px solid var(--bs-pink);
+    border-radius: 22px;
+    padding: 10px 0px;
+}
+/* .container1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+.upfile{
+    font-size: 15px;
+    background: white;
+    border-radius: 22px;
+    outline: none;
+    border: 2px solid var(--bs-pink);
+    width: 100%;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background: #ea6060;
+    border-radius: 22px;
+    border: red !important;
+    padding: 10px;
+    margin: 5px;
+}
+/* Phần footer */
+footer{
+    background-color: rgba(244, 244, 244);
+}
+
+.footer-link ul{
+    display: flex;
+    list-style-type: none;
+}
+.footer-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #444;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 16px;
+}
+
+.errMes {
+    position: absolute;
+    color: rgb(221, 50, 50);
+    font-size: 14px;
+    display: block;
+    right: 10px;
+    top: 25%;
+}
+
+#errContent {
+    top:10px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.input-content {
+    min-height: 140px;
+    overflow: hidden;
+}
